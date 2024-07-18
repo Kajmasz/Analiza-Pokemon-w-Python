@@ -1,0 +1,307 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="678" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\PokemonDB_updated.csv</File>
+          <Passwords />
+          <Disable>False</Disable>
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>PokemonDB_updated.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="210" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>pokemon.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="abilities" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_bug" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_dark" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_dragon" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_electric" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_fairy" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_fight" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_fire" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_flying" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_ghost" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_grass" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_ground" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_ice" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_normal" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_poison" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_psychic" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_rock" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_steel" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="against_water" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="attack" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="base_egg_steps" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="base_happiness" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="base_total" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="capture_rate" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="classfication" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="defense" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="experience_growth" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="height_m" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="hp" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="japanese_name" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="name" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="percentage_male" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="pokedex_number" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="sp_attack" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="sp_defense" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="speed" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="type1" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="type2" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="weight_kg" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="generation" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+            <Field name="is_legendary" size="254" source="File: C:\Users\Kajmasz\OneDrive\Dokumenty\PW\Programowanie Python\PJP\Projekt\pokemon.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="330" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="abilities" selected="False" />
+            <SelectField field="pokedex_number" selected="True" />
+            <SelectField field="name" selected="True" />
+            <SelectField field="generation" selected="True" />
+            <SelectField field="type1" selected="True" />
+            <SelectField field="type2" selected="True" />
+            <SelectField field="classfication" selected="True" />
+            <SelectField field="is_legendary" selected="True" />
+            <SelectField field="attack" selected="True" />
+            <SelectField field="sp_attack" selected="True" />
+            <SelectField field="defense" selected="True" />
+            <SelectField field="sp_defense" selected="True" />
+            <SelectField field="hp" selected="True" />
+            <SelectField field="speed" selected="True" />
+            <SelectField field="base_total" selected="True" />
+            <SelectField field="base_egg_steps" selected="False" />
+            <SelectField field="base_happiness" selected="False" />
+            <SelectField field="height_m" selected="True" />
+            <SelectField field="weight_kg" selected="True" />
+            <SelectField field="percentage_male" selected="True" />
+            <SelectField field="capture_rate" selected="True" />
+            <SelectField field="japanese_name" selected="False" />
+            <SelectField field="experience_growth" selected="True" />
+            <SelectField field="against_bug" selected="True" />
+            <SelectField field="against_dark" selected="True" />
+            <SelectField field="against_dragon" selected="True" />
+            <SelectField field="against_electric" selected="True" />
+            <SelectField field="against_fairy" selected="True" />
+            <SelectField field="against_fight" selected="True" />
+            <SelectField field="against_fire" selected="True" />
+            <SelectField field="against_flying" selected="True" />
+            <SelectField field="against_ghost" selected="True" />
+            <SelectField field="against_grass" selected="True" />
+            <SelectField field="against_ground" selected="True" />
+            <SelectField field="against_ice" selected="True" />
+            <SelectField field="against_normal" selected="True" />
+            <SelectField field="against_poison" selected="True" />
+            <SelectField field="against_psychic" selected="True" />
+            <SelectField field="against_rock" selected="True" />
+            <SelectField field="against_steel" selected="True" />
+            <SelectField field="against_water" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Titlecase([type1])" field="type1" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[type1 = Titlecase([type1])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="582" y="114" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\Kajmasz\AppData\Local\Temp\Engine_9184_c5c68dd63e57af4da11ee4171a07a8ec_\Engine_9184_ca9e5cedef9b3f4ea3234917c22d78a6~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="498" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Titlecase([type2])" field="type2" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[type2 = Titlecase([type2])
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="1" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DBupdate</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="79f42e67-668c-490c-994a-d2a9af2dc123" />
+      <Telemetry>
+        <PreviousWorkflowId value="3d957415-04a0-40b5-903f-cf78feb60e1b" />
+        <OriginWorkflowId value="3d957415-04a0-40b5-903f-cf78feb60e1b" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
